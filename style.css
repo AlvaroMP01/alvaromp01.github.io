@@ -1,6 +1,8 @@
 * {
   padding: 0px;
   margin: 0px;
+  border: #ff0000;
+  
 }
 .flexNav {
   display: flex;
@@ -26,9 +28,15 @@ a:hover {
 
 .flexCuerpo {
   display: flex;
+  padding-top: 2%;
+  padding-left: 2%;
 }
 
-.body {
-  background-image: url(image/255078.jpg) ;
+.bg{
+  background-image: url("image/pexels-pixabay-301614.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 57em;
+  background-position: center;
+  margin-top: 0px;
 }
-
