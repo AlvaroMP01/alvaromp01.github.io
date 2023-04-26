@@ -9,14 +9,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Portafoliooo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portafolio</title>
   </head>
   <header>
-    <nav class="flexNav">
+    <nav class="topnav" id="myTopnav">
       <a href="#" class="logo">Alvaro Morcillo</a>
       <a href="#" class="item">Inicio</a>
       <a href="#" class="item">Proyectos</a>
       <a href="#" class="item">Contacto</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </nav>
   </header>
   <body>
@@ -30,6 +34,16 @@
         <img src="image/255078.jpg" />
       </section>
     </section>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
   </body>
   <footer>
     <section class="footerContainer">
