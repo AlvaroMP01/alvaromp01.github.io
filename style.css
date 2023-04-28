@@ -53,6 +53,10 @@ a {
   align-items: center;
 }
 
+.flexCuerpo p{
+  padding: 2%;
+}
+
 .bg {
   background-image: url("image/pexels-pixabay-301614.jpg");
   background-repeat: no-repeat;
